@@ -37,13 +37,14 @@ Enter a New Blood Pressure Reading
 				aria-describedby="bp-dystolic" placeholder="Enter dystolic" autocomplete="off">
 			<span class="input-group-addon" id="bp-dystolic">Dystolic</span>
 		</div>
+		<textarea class="form-control" name="notes" placeholder="Enter notes here"></textarea>
 		<div class="input-group">
 			<input class="form-control" width="5" name="saved_at"
 				aria-describedby="input-addon" id="datePicker" autocomplete="off">
 			<span class="input-group-addon" id="input-addon">Date</span>
 		</div>
 		
-		<button type="submit" class="btn btn-primary">Add Output</button><a href="/" class="btn btn-default pull-right">Cancel</a>
+		<button type="submit" class="btn btn-primary">Add Reading</button><a href="/" class="btn btn-default pull-right">Cancel</a>
 	</div>
 </form>
 
